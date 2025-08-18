@@ -1,0 +1,88 @@
+body {
+    background-image: url(assets/images/snow-capped-mountains-background.png);
+    background-size: cover;
+}
+
+header,
+main,
+nav,
+footer {
+    width: 95%;
+    margin: auto;
+}
+
+/* Blogpost Article Section */
+
+.blog-post-container {
+  width: inherit;
+  height: 800px;
+  margin: 10px;
+  /*  CSS Grid  */
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(9, 1fr);
+  gap: 10px;
+}
+
+.blog-card {
+  border-radius: 4%;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6,
+.card-7,
+.card-8 {
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 10px;
+}
+
+.card-1 {
+  grid-area: 1 / 1 / 2 / span 6;
+  background-color: blue;
+}
+
+.card-2 {
+  background-color: red;
+  grid-area: 1 / 7 / 2 / span 3;
+}
+
+.card-3 {
+  grid-area: 2 / 1 / span 1 / span 3;
+  background-color: green;
+}
+
+.card-4 {
+  grid-area: 2 / 4 / span 1 / span 3;
+  background-color: pink;
+}
+
+.card-5 {
+  grid-area: 2 / 7 / span 1 / span 3;
+  background-color: yellow;
+}
+
+.card-5 {
+  grid-area: 2 / 7 / span 1 / span 3;
+  background-color: yellow;
+}
+
+.card-6 {
+  grid-area: 3 / 1 / span 1 / span 1;
+  background-color: orange;
+}
+
+.card-7 {
+  grid-area: 3 / 2 / span 1 / span 7;
+  background-color: white;
+}
+
+.card-8 {
+  grid-area: 3 / 9 / span 1 / span 1;
+  background-color: purple;
+}
