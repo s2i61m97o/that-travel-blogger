@@ -1,0 +1,352 @@
+/* Universal Styles */
+
+html,
+body {
+  min-width: 100vw;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+body {
+  min-width: 100vw;
+  background-color: whitesmoke;
+  background-image: linear-gradient(180deg, transparent 0%, whitesmoke 99%),
+    url(/images/mountains-hero-banner-large.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: auto 1200px;
+}
+
+main {
+  margin: 15px auto;
+}
+
+p {
+  padding-top: 0;
+  margin-top: 0;
+  font-weight: 600;
+}
+
+/* ============== */
+/* Header Section */
+/* ============== */
+
+header {
+  display: flex;
+  flex-direction: column;
+  margin: -7.5px;
+  height: fit-content;
+}
+
+#site-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav button {
+  padding: 10px;
+  margin: auto;
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-weight: 600;
+  width: 100%;
+  border-top: 0;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 5px black solid;
+  background: transparent;
+  backdrop-filter: blur(5px);
+}
+
+a {
+  width: 25%;
+}
+
+#title-image {
+  width: 80vw;
+  height: auto;
+  margin: 0 auto 0 auto;
+}
+
+#hero {
+  width: 75%;
+  display: flex;
+  margin: 0 auto;
+  font-family: "Edu NSW ACT Cursive", cursive;
+  padding: 15px;
+  position: relative;
+  background-color: transparent;
+  backdrop-filter: blur(1px);
+  border-radius: 5px;
+}
+
+#hero h2 {
+  margin-top: 0;
+  font-size: 2vw;
+  color: black;
+  /* text-shadow: 0.5px 0.5px 0.5px black; */
+}
+
+/* ======================== */
+/* Blogpost Article Section */
+/* ======================== */
+
+#articles {
+  position: static;
+}
+
+.blog-post-container {
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  display: grid;
+  gap: 10px;
+}
+
+.blog-card {
+  font-family: "Chewy", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: whitesmoke;
+  text-shadow: 1px 1px 1px black;
+  box-shadow: 3px 4px black;
+  border: solid black 0.2px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: end;
+  overflow: hidden;
+  max-height: 350px;
+  transition: transform 0.2s ease, box-shadow 0.1s ease;
+}
+
+.blog-card:hover {
+  transform: translate(4px, 3px);
+  box-shadow: none;
+}
+
+.blog-card > img {
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+  position: relative;
+  z-index: -1;
+}
+
+.article-title {
+  position: absolute;
+  z-index: 1;
+  padding: 8px;
+  max-width: 80%;   /* keep text from stretching full width */
+  text-align: end;  /* ensure right alignment */
+}
+
+.article-title h3 {
+  margin: 0;
+  font-size: clamp(1rem, 2vw, 2rem); /* responsive scaling */
+}
+
+.article-title p {
+  margin: 0;
+  font-size: clamp(0.8rem, 1.5vw, 1.2rem);
+}
+
+/* ================================== */
+/* Blogpost Responsive Design Section */
+/* ================================== */
+
+/* Desktop / Large screens */
+@media (min-width: 1025px) {
+  .blog-post-container {
+    grid-template: 1fr 1fr 1fr / repeat(6, 1fr);
+  }
+
+  /* Custom grid placements */
+  .card-1 { grid-area: 1 / 1 / 2 / span 4; }
+  .card-2 { grid-area: 1 / 5 / 2 / span 2; }
+  .card-3 { grid-area: 2 / 1 / span 1 / span 2; }
+  .card-4 { grid-area: 2 / 3 / span 1 / span 2; }
+  .card-5 { grid-area: 2 / 5 / span 1 / span 2; }
+  .card-6 { grid-area: 3 / 1 / span 1 / span 1; }
+  .card-7 { grid-area: 3 / 2 / span 1 / span 4; }
+  .card-8 { grid-area: 3 / 6 / span 1 / span 1; }
+}
+
+/* Tablets (≤1024px) */
+@media (max-width: 1024px) {
+  .blog-post-container {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 15px;
+  }
+
+  .blog-card {
+    grid-area: unset;
+    aspect-ratio: 16 / 9;  /* widescreen ratio */
+    max-height: unset;     /* let aspect-ratio control height */
+  }
+
+  .blog-card > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .article-title {
+    max-width: 75%;
+  }
+
+  .article-title h3 {
+    font-size: clamp(1rem, 2vw, 1.5rem);
+  }
+
+  .article-title p {
+    font-size: clamp(0.8rem, 1.5vw, 1.1rem);
+  }
+}
+
+/* Mobiles (≤768px) */
+@media (max-width: 768px) {
+  .blog-card {
+    aspect-ratio: 4 / 3;   /* slightly taller ratio */
+  }
+
+  .article-title {
+    max-width: 70%;
+  }
+
+  .article-title h3 {
+    font-size: 1.2rem;
+  }
+
+  .article-title p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Extra Small (≤480px) */
+@media (max-width: 480px) {
+  .blog-card {
+    aspect-ratio: 1 / 1;   /* square cards for narrow phones */
+  }
+
+  .article-title {
+    max-width: 65%;
+  }
+
+  .article-title h3 {
+    font-size: 1rem;
+  }
+
+  .article-title p {
+    font-size: 0.8rem;
+  }
+}
+
+/* ================== */
+/* Destination Guides */
+/* ================== */
+
+#guides {
+  position: relative;
+  font-family: "Edu NSW ACT Cursive", cursive;
+  width: 100%;
+  text-align: center;
+  background-image: linear-gradient(0deg, transparent 0%, whitesmoke 99%),
+    url(/images/mountains-hero-banner-bottom.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 50px;
+  margin-top: 10px;
+}
+
+#guides h2 {
+  font-size: xxx-large;
+}
+
+#guide-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.guide-card {
+  height: 350px;
+  width: 350px;
+  text-align: center;
+  border: solid black 5px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.guide-img {
+  width: 100%;
+  min-height: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+
+.guide-location {
+  font-weight: 700;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 10px;
+  z-index: 1;
+  text-align: center;
+  min-width: fit-content;
+  max-width: 350px;
+}
+
+.guide-location h3 {
+  color: whitesmoke;
+  text-shadow: 1px 1px 1px black;
+  margin-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  z-index: 1;
+  text-align: inherit;
+  max-width: 100%;
+}
+
+/* ================== */
+/* Trip Planning Tips */
+/* ================== */
+
+#trip-tips {
+  background-image: url(/images/beach-sunrise-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  padding-top: 20px;
+  height: 400px;
+  text-align: center;
+  font-family: "Chewy", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: xx-large;
+}
+
+#trip-tips h2 {
+  margin-bottom: 0;
+}
+
+#trip-tips p {
+  padding: 0;
+}
+
+#trip-tips-btn {
+  padding: 10px;
+}
+
+footer {
+ 
+}
