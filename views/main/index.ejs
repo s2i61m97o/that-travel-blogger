@@ -1,35 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>That Travel Blogger</title>
-    <link rel="stylesheet" href="styles.css" />
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Chewy&family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <nav>
-      <a><button>Home</button></a>
-      <a href="article.html"><button>Articles</button></a>
-      <a><button>Planning a Trip</button></a>
-      <a><button>Destination guides</button></a>
-    </nav>
-    <header>
-         <img id="title-image" src="/images/that-travel-blogger-title-image-transparent-crop.png" alt="">
-    </header>
+<%- include("../partials/header") %>
 
-    <main>
+    <main>  
       <section id="hero">
         <div>
           <h2>Welcome to the place that fuels your wanderlust!</h2>
@@ -104,32 +76,30 @@
         </div>
       </section>
 
-      <section id="guides">
+      <section id="destination-guides">
         <h2>Destination Guides:</h2>
         <div id="guide-container">
-          <div class="guide-card guide-1">
-            <div class="guide-location"><h3>Europe</h3></div>
+          <div class="guide-card">
+            <h3 class="guide-location">Europe</h3>
             <img
               src="/images/europe-guide-cover.png"
               alt=""
               class="guide-img"
             />
           </div>
-          <div class="guide-card guide-2">
-            <div class="guide-location"><h3>The Americas</h3></div>
+          <div class="guide-card">
+            <h3 class="guide-location">The Americas</h3>
             <img
               src="/images/americas-guide-cover.png"
               alt=""
               class="guide-img"
             />
           </div>
-          <div class="guide-card guide-3">
-            <div class="guide-location">
-              <h3>
-                Australia &<br />
+          <div class="guide-card">
+              <h3 class="guide-location">
+                Australia &
                 New Zealand
               </h3>
-            </div>
             <img
               src="/images/aus-guide-cover.png"
               alt=""
@@ -139,15 +109,5 @@
         </div>
       </section>
 
-      <section id="trip-tips">
-        <h2>Planning A Trip?</h2>
-        <p>
-          Check out our planning tips to ensure you trip is a once in a lifetime
-          experience!
-        </p>
-        <button id="trip-tips-btn">Plan Your Trip!</button>
-      </section>
-    </main>
-    <footer>Copyright That Travel Blogger 2025</footer>
-  </body>
-</html>
+      <%- include("../partials/plan-tips-banner") %>
+      <%- include("../partials/footer") %>

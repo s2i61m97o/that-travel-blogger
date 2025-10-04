@@ -1,8 +1,9 @@
 {
   "name": "blog-website",
   "version": "1.0.0",
-  "description": "A personal travel blog website containing articles, destination guides and planning tips. This fake project is set up to showcase use of CSS, in particular layout design using CSS Grid and Flexbox",
+  "description": "A personal travel blog website containing articles, destination guides and planning tips. Built with Node.js, Express, and EJS for server-side rendering.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
