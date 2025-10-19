@@ -2,13 +2,13 @@
 
 html,
 body {
-  min-width: 100vw;
+  max-width: 100vw;
   overflow-x: hidden;
   margin: 0;
 }
 
 body {
-  min-width: 100vw;
+  max-width: 100vw;
   background-color: whitesmoke;
   background-image: linear-gradient(180deg, transparent 0%, whitesmoke 99%),
     url(/images/mountains-hero-banner-large.png);
@@ -34,14 +34,25 @@ nav button {
   border-bottom: 5px black solid;
   background: transparent;
   backdrop-filter: blur(5px);
+  max-height: 48.5px;
 }
 
-a {
+nav button:hover {
+  border-bottom: 3px solid black;
+  transform: translateY(2px);
+  background-color: rgb(245, 245, 245, 0.2)
+}
+
+nav a {
   width: 25%;
 }
 
+#title-image {
+  width: 50vw;
+}
+
 main {
-  margin: 15px auto;
+  margin: 15px auto 0 auto;
 }
 
 p {
@@ -50,9 +61,39 @@ p {
   font-weight: 600;
 }
 
-/* ================== */
+#hero {
+  width: 75%;
+  display: flex;
+  margin: 0 auto;
+  font-family: "Edu NSW ACT Cursive", cursive;
+  padding: 15px;
+  position: relative;
+  background-color: transparent;
+  backdrop-filter: blur(1px);
+  border-radius: 5px;
+}
+
+/* Header Styles */
+
+header {
+  display: flex;
+  flex-direction: column;
+  margin: -7.5px;
+  height: fit-content;
+}
+
+#site-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#title-image {
+  height: auto;
+  margin: 0 auto 0 auto;
+}
+
 /* Trip Planning Tips */
-/* ================== */
 
 #trip-tips {
   background-image: url(/images/beach-sunrise-1.png);
@@ -78,11 +119,32 @@ p {
 
 #trip-tips-btn {
   padding: 10px;
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-weight: 600;
+  width: 150px;
+  padding: 20px;
+  background-color: rgb(245, 245, 245, 0.8);
+  border: 2px solid rgb(31, 36, 39);
+  border-radius: 5px;
+  box-shadow: 2px 2px black;
 }
 
-/* ====== */
+#trip-tips-btn:hover {
+  transform: translate(2px, 2px);
+  box-shadow: none;
+}
+
+
 /* Footer */
-/* ====== */
 
 footer {
+  width: 100vw;
+  height: 75px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-size: large;
 }

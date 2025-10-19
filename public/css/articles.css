@@ -1,0 +1,84 @@
+
+
+#hero {
+  text-align: center;
+}
+
+#articles {
+  max-width: 100%;
+}
+
+/* Articles Grid */
+
+.articles-grid {
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 10px;
+}
+
+.article-card {
+  font-family: "Chewy", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  max-width: 300px;
+  max-height: 300px;
+  box-shadow: 4px 5px black;
+  border: solid black 1px;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+
+.article-card:hover {
+  transform: translate(5px, 4px);
+  box-shadow: none;
+}
+
+.article-img {
+  width: 100%;
+  min-height: 100%;
+  /* object-fit: cover; */
+  object-position: center;
+}
+
+.main-title,
+.sub-title {
+  position: absolute;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(1px);
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.main-title {
+  top: 0;
+  visibility: hidden;
+}
+.sub-title {
+  bottom: 0;
+}
+
+.article-card:hover .main-title {
+  visibility: visible;
+  animation: fadeInDown 0.4s ease forwards;
+}
+
+
+/* Keyframes */
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

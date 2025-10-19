@@ -1,22 +1,6 @@
-<%- include("../partials/header") %>
-
-<section id="hero">
-  <div>
-    <h2>Welcome to the place that fuels your wanderlust!</h2>
-    <p>
-      If you've got a case of insatiable wanderlust, a thirst for adventure, or
-      just need a little nudge to plan that dream getaway, you're in the right
-      place. From breathtaking landscapes to bustling city-scapes, I've
-      journeyed across the globe and packed all my tales, tips, and destination
-      guides right here. Let's explore the world together - one incredible trip
-      at a time!
-    </p>
-  </div>
-</section>
-
 <section id="articles">
   <div class="blog-post-container">
-    <div class="blog-card card-1">
+    <!-- <div class="blog-card card-1">
       <div class="article-title">
         <p>East Coast Australia</p>
         <h3>A Journey Up the Sunburnt Coast</h3>
@@ -66,32 +50,41 @@
       <img src="/images/argentina-article-banner.png" alt="" />
     </div>
 
-    <div class="blog-card card-8">
+    
+      <div class="blog-card card-8">
+        <div class="article-title">
+          <h3>All Articles</h3>
+        </div>
+        <img src="/images/van-life-wanderlust.png" alt="" /></div> 
+    
+  -->
+
+  <!-- forEach Statement -->
+
+    <%# forEach(blogpostData, function(post) { %>
+     
+    
+    
+    <div class="blog-card">
       <div class="article-title">
-        <h3>All Articles</h3>
+        <p><%= post.country %></p>
+        <h3><%= post.title %></h3>
       </div>
-      <img src="/images/van-life-wanderlust.png" alt="" />
+      <img src="<%= post.coverImgURL %>" alt="" />
     </div>
+    -->
+
+  <!-- for Statement -->
+
+    <% for(i=0; i < 8; i++){ %>
+    <div class="blog-card blog-card-<%= i+1 %>">
+      <div class="article-title">
+        <p><%= blogpostData[i].country %></p>
+        <h3><%= blogpostData[i].title %></h3>
+      </div>
+      <img src="<%= blogpostData[i].coverImgURL %>" alt="" />
+    </div>
+
+   <% } %>
   </div>
 </section>
-
-<section id="destination-guides">
-  <h2>Destination Guides:</h2>
-  <div id="guide-container">
-    <div class="guide-card">
-      <h3 class="guide-location">Europe</h3>
-      <img src="/images/europe-guide-cover.png" alt="" class="guide-img" />
-    </div>
-    <div class="guide-card">
-      <h3 class="guide-location">The Americas</h3>
-      <img src="/images/americas-guide-cover.png" alt="" class="guide-img" />
-    </div>
-    <div class="guide-card">
-      <h3 class="guide-location">Australia & New Zealand</h3>
-      <img src="/images/aus-guide-cover.png" alt="" class="guide-img" />
-    </div>
-  </div>
-</section>
-
-<%- include("../partials/plan-tips-banner") %> <%- include("../partials/footer")
-%>

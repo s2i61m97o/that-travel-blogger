@@ -2,37 +2,9 @@
 /* Header Section */
 /* ============== */
 
-header {
-  display: flex;
-  flex-direction: column;
-  margin: -7.5px;
-  height: fit-content;
-}
-
-#site-header {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
 #title-image {
-  width: 80vw;
-  height: auto;
-  margin: 0 auto 0 auto;
+  width: 80vw;;
 }
-
-#hero {
-  width: 75%;
-  display: flex;
-  margin: 0 auto;
-  font-family: "Edu NSW ACT Cursive", cursive;
-  padding: 15px;
-  position: relative;
-  background-color: transparent;
-  backdrop-filter: blur(1px);
-  border-radius: 5px;
-}
-
 #hero h2 {
   margin-top: 0;
   font-size: 2vw;
@@ -244,6 +216,7 @@ header {
   margin: 0 auto;
 }
 
+
 .guide-card {
   width: 100%;
   max-width: 350px;
@@ -253,6 +226,11 @@ header {
   border-radius: 8px;
   overflow: hidden;
   border: solid black 5px;
+}
+
+.guide-card:hover {
+  border: rgba(31, 36, 39, 0.4) solid 5px;
+  box-shadow: 10px 10px rgba(31, 36, 39, 0.4), -10px -10px rgba(31, 36, 39, 0.4);
 }
 
 .guide-img {

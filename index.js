@@ -3,6 +3,8 @@ import { dirname } from "path";
 import { fileURLToPath } from "url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
+import blogpostData from "./database/blogpostData.json" with { type: "json" }; 
+
 const app = express();
 const port = 3000;
 
@@ -10,11 +12,15 @@ app.set("view engine", "ejs");
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
-  res.render("main/index", { stylesheet: "css/index.css" });
+  res.render("main/index", { stylesheet: "css/index.css", blogpostData: blogpostData });
 });
 
 app.get("/articles", (req, res) => {
-  res.render("main/articles", { stylesheet: "css/articles.css" });
+  res.render("main/articles", { stylesheet: "css/articles.css", blogpostData: blogpostData });
+});
+
+app.get("/blogpost", (req, res) => {
+  res.render("main/blogpost", { stylesheet: "css/blogpost.css" });
 });
 
 app.get("/destination-guides", (req, res) => {

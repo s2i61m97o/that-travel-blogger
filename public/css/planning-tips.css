@@ -1,0 +1,43 @@
+.blog-hero {
+    text-align: center;
+    margin: auto;
+    font-family: "Edu NSW ACT Cursive", cursive;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px white;
+    width: 75%;
+    color: black;
+}
+
+.blog-hero p {
+    font-size: 1.2em;
+}
+
+.blog-article {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+li {
+    /* border: black 1px solid; */
+    width: 45%;
+    padding: 10px;
+    background-color: rgba(245, 245, 245, 0.5);
+    color: rgb(31, 36, 39);
+    text-align: center;
+    border-radius: 15px;
+    font-family: "Edu NSW ACT Cursive", cursive;
+}
+
+li h3 {
+    font-weight: 700;
+}
