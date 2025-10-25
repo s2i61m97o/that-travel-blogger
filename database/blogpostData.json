@@ -1,65 +1,65 @@
-[
-  {
+{
+  "a-journey-up-the-sunburnt-coast": {
     "id": 1,
     "title": "A Journey Up the Sunburnt Coast",
     "country": "Australia",
-    "date": "October 2023",
-    "content": "blogposts/australia.md",
-    "coverImgURL": "/images/east-coast-aus-display.png",
-    "images": []
+    "date": "August - November 2023",
+    "content": "/blogposts/australia.md",
+    "coverImgURL": "/images/articles/australia/east-coast-aus-display.png",
+    "images": ["bondi-sunrise-stephanie--o-donnell.jpg", "gbr-erick-morales-oyola.jpg", "gbr-giorgia-doglioni.jpg", "noosa-heads-raygar-he.jpg", "sydney-habour-dan-freeman.jpg"]
   },
-  {
+  "apline-adventures": {
     "id": 2,
     "title": "Alpine Adventures",
     "country": "Austria",
     "date": "September 2025",
-    "content": "",
-    "coverImgURL": "/images/austria-article-banner.png",
-    "images": []
+    "content": "/blogposts/austria.md",
+    "coverImgURL": "/images/articles/austria/austria-article-banner.png",
+    "images": ["austria-mountains-matthew.jpg", "innsbruck-luca.jpg", "mountain-cabin-daniel-diemer.jpg", "mountain-top-thomas-haas.jpg", "mountain-lake-daniel-jacob.jpg"]
   },
-  {
+  "on-top-of-the-world": {
     "id": 3,
     "title": "On Top of the World",
     "country": "Nepal",
     "date": "July 2019",
-    "content": "",
-    "coverImgURL": "/images/himalayas-article-banner.png",
+    "content": "/blogposts/nepal.md",
+    "coverImgURL": "/images/articles/nepal/himalayas-article-banner.png",
     "images": []
   },
-  {
+  "chasing-the-northern-lights": {
     "id": 4,
     "title": "Chasing the Northern Lights",
     "country": "Norway",
     "date": "January 2022",
-    "content": "",
-    "coverImgURL": "/images/norway-article-banner.png",
+    "content": "/blogposts/norway.md",
+    "coverImgURL": "/images/articles/norway/norway-article-banner.png",
     "images": []
   },
-  {
+  "ancient-secrets-and-landscapes": {
     "id": 5,
     "title": "Ancient Secrets and Landscapes",
     "country": "Peru",
     "date": "April 2017",
-    "content": "",
-    "coverImgURL": "/images/peru-article-banner.png",
+    "content": "/blogposts/peru.md",
+    "coverImgURL": "/images/articles/peru/peru-article-banner.png",
     "images": []
   },
-  {
+  "the-wild-and-wonders-of-the-great-white-north": {
     "id": 6,
     "title": "The Wild and Wonders of the Great White North",
     "country": "Canada",
     "date": "March 2017",
-    "content": "",
-    "coverImgURL": "/images/canada-article-banner.png",
+    "content": "/blogposts/canada.md",
+    "coverImgURL": "/images/articles/canada/canada-article-banner.png",
     "images": []
   },
-  {
+  "the-soul-of-south-america": {
     "id": 7,
     "title": "The Soul of South America",
     "country": "Argentina",
     "date": "May 2025",
-    "content": "",
-    "coverImgURL": "images/argentina-article-banner.png",
+    "content": "/blogposts/argentina.md",
+    "coverImgURL": "/images/articles/argentina/argentina-article-banner.png",
     "images": []
   }
-]
+}

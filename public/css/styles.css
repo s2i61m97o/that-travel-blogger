@@ -11,7 +11,7 @@ body {
   max-width: 100vw;
   background-color: whitesmoke;
   background-image: linear-gradient(180deg, transparent 0%, whitesmoke 99%),
-    url(/images/mountains-hero-banner-large.png);
+    url(/images/website-images/mountains-hero-banner-large.png);
   background-repeat: no-repeat;
   background-position: top;
   background-size: auto 1200px;
@@ -96,7 +96,7 @@ header {
 /* Trip Planning Tips */
 
 #trip-tips {
-  background-image: url(/images/beach-sunrise-1.png);
+  background-image: url(/images/travel-tips/beach-sunrise-1.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

@@ -12,6 +12,7 @@
 
 .articles-grid {
   max-width: 100%;
+  height: auto;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -26,6 +27,7 @@
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   max-width: 300px;
   max-height: 300px;
+  aspect-ratio: 4/3;
   box-shadow: 4px 5px black;
   border: solid black 1px;
   border-radius: 8px;
@@ -41,8 +43,8 @@
 .article-img {
   width: 100%;
   min-height: 100%;
-  /* object-fit: cover; */
-  object-position: center;
+  object-fit: cover;
+  object-position:center;
 }
 
 .main-title,

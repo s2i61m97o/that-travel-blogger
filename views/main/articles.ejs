@@ -12,62 +12,18 @@
   </section>
   <section id="articles">
     <div class="articles-grid">
-
-      <% blogpostData.forEach((post) => { %>
-        <div class="article-card" onclick="location.href='/blogpost:';">
-          <p class="main-title"><%= post.country %></p>
-          <h3 class="sub-title"><%= post.title %></h3>
-          <img
-            class="article-img"
-            src="<%= post.coverImgURL %>"
-            alt=""
-          />
-        </div>
+      <% Object.entries(blogpostData).forEach(([slug, post]) => { %>
+      <div
+        class="article-card"
+        onclick="location.href='/blogpost/<%= slug %>';"
+      >
+        <p class="main-title"><%= post.country %></p>
+        <h3 class="sub-title"><%= post.title %></h3>
+        <img class="article-img" src="<%= post.coverImgURL %>" alt="" />
+      </div>
       <% }) %>
-
-      
-      <!-- <div class="article-card" onclick="location.href='/blogpost';">
-        <p class="main-title">East Coast Australia</p>
-        <h3 class="sub-title">A Journey Up the Sunburnt Coast</h3>
-        <img
-          class="article-img"
-          src="/images/east-coast-aus-display.png"
-          alt=""
-        />
-      </div>
-      
-      <div class="article-card" onclick="location.href='/blogpost';">
-        <p class="main-title">Austria</p>
-        <h3 class="sub-title">Alpine Adventures</h3>
-        <img
-          class="article-img"
-          src="/images/austria-article-banner.png"
-          alt=""
-        />
-      </div>
-
-      <div class="article-card" onclick="location.href='/blogpost';">
-        <p class="main-title">The Himalayas</p>
-        <h3 class="sub-title">On Top of the World</h3>
-        <img
-          class="article-img"
-          src="/images/himalayas-article-banner.png"
-          alt=""
-        />
-      </div>
-
-      <div class="article-card" onclick="location.href='/blogpost';">
-        <p class="main-title">Norway</p>
-        <h3 class="sub-title">Chasing the Northern Lights</h3>
-        <img
-          class="article-img"
-          src="/images/norway-article-banner.png"
-          alt=""
-        />
-      </div> -->
     </div>
   </section>
 </main>
 
-<%- include("../partials/plan-tips-banner") %> <%- include("../partials/footer")
-%>
+<%- include("../partials/plan-tips-banner") %> <%- include("../partials/footer")%>
