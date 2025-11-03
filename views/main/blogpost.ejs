@@ -4,11 +4,39 @@
   <h1><%= blogpost.country %>: <%= blogpost.title %></h1>
   <p class="blogpost-date"><%= blogpost.date %></p>
 </section>
-<section id="blogpost-content"><%= md.render(blogpost.content) %></section>
+
+<section id="blogpost-content"><%- blogContent %></section>
+
+
+<!-- Image Carousel using Bootstrap -->
+<section>
+ <div id="carouselIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <% blogpost.images.forEach(function(image, index) { %>
+    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="<%= index %>" class="<%= index === 0 ? 'active' : '' %>" aria-current="true" aria-label="Slide <%= index + 1 %>"></button>
+    <% }); %>
+  </div>
+  <div class="carousel-inner">
+    <% blogpost.images.forEach(function(image, index) { %>
+      <div class="carousel-item <%= index === 0 ? 'active' : '' %>">
+        <img src="<%= blogImagesDir + image.filename%>" class="d-block w-100" alt="<%= image.caption%>">
+      </div>
+    <% }); %>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
 
 <style>
   body {
-    background-image: linear-gradient(180deg, transparent 20%, whitesmoke 45%),
+    background-image: linear-gradient(180deg, transparent 30%, whitesmoke 90%),
       url(<%=blogpost.coverImgURL%>);
   }
 </style>

@@ -1,0 +1,212 @@
+{
+  "a-journey-up-the-sunburnt-coast": {
+    "id": 1,
+    "title": "A Journey Up the Sunburnt Coast",
+    "country": "Australia",
+    "date": "August - November 2023",
+    "content": "database/blogposts/australia.md",
+    "coverImgURL": "/images/blogposts/australia/east-coast-aus-display.png",
+    "images": [
+      {
+        "filename": "bondi-sunrise-stephanie-o-donnell.jpg",
+        "caption": "Sunset at Bondi Beach, Sydney"
+      },
+      {
+        "filename": "gbr-erick-morales-oyola.jpg",
+        "caption": "Snorkeling in the Great Barrier Reef"
+      },
+      {
+        "filename": "gbr-giorgia-doglioni.jpg",
+        "caption": "Diving in the Great Barrier Reef"
+      },
+      {
+        "filename": "noosa-heads-raygar-he.jpg",
+        "caption": "Sunset at Noosa Heads"
+      },
+      {
+        "filename": "sydney-habour-dan-freeman.jpg",
+        "caption": "Sydney Harbour Bridge"
+      }
+    ]
+  },
+  "apline-adventures": {
+    "id": 2,
+    "title": "Alpine Adventures",
+    "country": "Austria",
+    "date": "September 2025",
+    "content": "database/blogposts/austria.md",
+    "coverImgURL": "/images/blogposts/austria/austria-article-banner.png",
+    "images": [{
+      "filename":"austria-mountains-matthew.jpg",
+      "caption":"The Austrian Alps"
+    },
+    {
+      "filename": "innsbruck-luca.jpg",
+      "caption": "View of Innsbruck"
+    },
+    {
+      "filename": "mountain-cabin-daniel-diemer.jpg",
+      "caption": "Mountain Cabin in Austrian Alps"
+    },
+    {
+      "filename": "mountain-top-thomas-haas.jpg",
+      "caption": "Mountain Top View in Austrian Alps"
+    },
+    {
+      "filename": "mountain-lake-daniel-jacob.jpg",
+      "caption": "Mountain Lake in Austrian Alps"
+    }
+  ]
+  },
+  "on-top-of-the-world": {
+    "id": 3,
+    "title": "On Top of the World",
+    "country": "Nepal",
+    "date": "July 2019",
+    "content": "database/blogposts/nepal.md",
+    "coverImgURL": "/images/blogposts/nepal/himalayas-article-banner.png",
+    "images": [
+      {
+        "filename": "annapurna-giuseppe-mondi.jpg",
+        "caption": "Houses overlooking mountain range - Annapurna, Narchyang"
+      },
+      {
+        "filename": "khumbu-valley-cristian-grecu.jpg",
+        "caption": "Mountain cover in snow - Khumbu Valley, Namche"
+      },
+      {
+        "filename": "himalyas-rohit-tandon.jpg",
+        "caption": "Ariel photo of himalaya mountain range"
+      },
+      {
+        "filename": "base-camp-trek-martin-jernberg.jpg",
+        "caption": "Snow covered mountain on Everest Base Camp trek"
+      },
+      {
+        "filename": "kathmandu-raimond-klavins.jpg",
+        "caption": "Ariel photo of Kathmandu city"
+      }
+    ]
+  },
+  "chasing-the-northern-lights": {
+    "id": 4,
+    "title": "Chasing the Northern Lights",
+    "country": "Norway",
+    "date": "January 2022",
+    "content": "database/blogposts/norway.md",
+    "coverImgURL": "/images/blogposts/norway/norway-article-banner.png",
+    "images": [
+      {
+        "filename": "bryggen-bergen-michael-fousert.jpg",
+        "caption": "Panorama city view of Bryggen, Bergen, Norway"
+      },
+      {
+        "filename": "northern-lights-lake-johny-goerend.jpg",
+        "caption": "Northern Lights seen over mountains near lake at Skagsanden beach, Flakstad, Norway"
+      },
+      {
+        "filename": "lofoten-norway-johny-goerend.jpg",
+        "caption": "Lofoten waterfront fishing village"
+      },
+      {
+        "filename": "segla-fjordgard-lukas-seitz.jpg",
+        "caption": "Snow covered Segla mountain in Fjordgard, Norway"
+      },
+      {
+        "filename": "longyearbyen-himmel-s.jpg",
+        "caption": "Night view of Longyearbyen, Svalbard, Norway"
+      }
+    ]
+  },
+  "ancient-secrets-and-landscapes": {
+    "id": 5,
+    "title": "Ancient Secrets and Landscapes",
+    "country": "Peru",
+    "date": "April 2017",
+    "content": "database/blogposts/peru.md",
+    "coverImgURL": "/images/blogposts/peru/peru-article-banner.png",
+    "images": [
+      {
+        "filename": "willian-justen-de-vasconcellos-machu-picchu-peru.jpg",
+        "caption": "Machu Picchu, Peru"
+      },
+      {
+        "filename": "hans-luiggi-la-merced-peru.jpg" ,
+        "caption": "View of a river running through forest covered mountains - La Merced, Peru"
+      },
+      {
+        "filename": "mckayla-crump-rainbow-mountain.jpg",
+        "caption": "Rainbow Mountain, Cusco, Peru"
+      },
+
+      {
+        "filename": "joe-green-cusco-street.jpg",
+        "caption": "Cusco Street with moutains in background, Peru"
+      },
+      {
+        "filename": "peter-livesey-fabric-store.jpg",
+        "caption": "Colourful fabric store in Cusco, Peru"
+      }
+    ]
+  },
+  "the-wild-and-wonders-of-the-great-white-north": {
+    "id": 6,
+    "title": "The Wild and Wonders of the Great White North",
+    "country": "Canada",
+    "date": "March 2017",
+    "content": "database/blogposts/canada.md",
+    "coverImgURL": "/images/blogposts/canada/canada-article-banner.png",
+    "images": [
+      {
+        "filename": "ampersand-studios-banff.jpg",
+        "caption": "River and forest view in Banff National Park"
+      },
+      {
+        "filename": "redd-francisco-river-cabin.jpg",
+        "caption": "Cabin along the river in Lake Louise, with snow-covered trees"
+      },
+      {
+        "filename": "conor-samuel-toronto.jpg",
+        "caption": "Toronto City Lights"
+      },
+      {
+        "filename": "alice-triquet-jacques-cartier-national-park.jpg",
+        "caption": "Jacques Cartier National Park, Quebec"
+      },
+      {
+        "filename": "juan-rojas-toronto-skyline.jpg",
+        "caption": "Toronto skyline at dusk"
+      }
+    ]
+  },
+  "the-soul-of-south-america": {
+    "id": 7,
+    "title": "The Soul of South America",
+    "country": "Argentina",
+    "date": "May 2025",
+    "content": "database/blogposts/argentina.md",
+    "coverImgURL": "/images/blogposts/argentina/argentina-article-banner.png",
+    "images": [
+      {
+        "filename": "rafael-hoyos-weht-el-chalten-santa-cruz.jpg",
+        "caption": "Mountain views - El Chalten, Santa Cruz"
+      },
+      {
+        "filename": "barbara-zandoval-caminito-buenos-aires.jpg" ,
+        "caption": "Colourful homes on a street in Caminito, Buenos Aires"
+      },
+      {
+        "filename": "derek-oyen-iguazu-falls.jpg",
+        "caption": "Iguazu Falls, Iguazu National Park, Argentina"
+      },
+      {
+        "filename": "emilio-lujan-san-carlos-de-bariloche.jpg",
+        "caption": "Lake View with mountains in the background - San Carlos de Bariloche"
+      },
+      {
+        "filename": "hector-ramon-perez-jujuy-argentina.jpg",
+        "caption": "Mountains view in Jujuy, Argentina"
+      }
+    ]
+  }
+}

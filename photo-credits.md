@@ -1,60 +1,63 @@
 # Photo Credits
 
-## Articles:
+## Blogposts:
 
 ### Argentina:
 
-- <a href=""></a>
-- <a href=""></a>
-- <a href=""></a>
-- <a href=""></a>
-- <a href=""></a>
+- <a href="/public/images/blogposts/argentina/rafael-hoyos-weht-el-chalten-santa-cruz.jpg">El Chalten, Santa Cruz</a> Photo by <a href="https://unsplash.com/@rhweht?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rafael Hoyos Weht</a> on <a href="https://unsplash.com/photos/snow-covered-mountain-under-blue-sky-during-daytime-vM0tW-ruSSU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- <a href="/public/images/blogposts/argentina/barbara-zandoval-caminito-buenos-aires.jpg">Caminito, Buenos Aires</a> Photo by <a href="https://unsplash.com/@barbarazandoval?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Barbara Zandoval</a> on <a href="https://unsplash.com/photos/blue-and-brown-concrete-building-under-blue-sky-during-daytime-fl3fdbbtj4Q?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- <a href="/public/images/blogposts/argentina/derek-oyen-iguazu-falls.jpg"> Iguazu Falls,
+Iguazu National Park, Argentina</a> Photo by <a href="https://unsplash.com/@goosegrease?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Derek Oyen</a> on <a href="https://unsplash.com/photos/trees-beside-waterfalls-lYv3hXpFdeY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>  
+- <a href="/public/images/blogposts/argentina/emilio-lujan-san-carlos-de-bariloche.jpg">San Carlos de Bariloche, Río Negro</a> Photo by <a href="https://unsplash.com/@emilio_lujan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Emilio Luján</a> on <a href="https://unsplash.com/photos/lake-near-mountain-under-white-clouds-during-daytime-OKWAtnEfN4M?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- <a href="/public/images/blogposts/argentina/hector-ramon-perez-jujuy-argentina.jpg">Jujuy, Argentina</a> Photo by <a href="https://unsplash.com/@argentinanatural?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hector Ramon Perez</a> on <a href="https://unsplash.com/photos/brown-and-gray-mountains-under-white-clouds-and-blue-sky-during-daytime-e7D8evFSyww?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 ### Australia:
 
-- <a href="/public/images/articles/australia/sydney-habour-dan-freeman.jpg">Sydney Habour</a> Photo by <a href="https://unsplash.com/@danfreemanphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dan Freeman</a> on <a href="https://unsplash.com/photos/sydney-opera-house-during-daytime-7Zb7kUyQg1E?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-- <a href="/public/images/articles/australia/bondi-sunrise-stephanie-o-donnell.jpg">Bondi Beach</a> Photo by <a href="https://unsplash.com/@stephodonnell?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephanie O'Donnell</a> on <a href="https://unsplash.com/photos/a-lifeguard-stand-on-the-beach-at-sunset-fj_l7EzCZOM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-- <a href="/public/images/articles/australia/noosa-heads-raygar-he.jpg">Noosa Heads</a> Photo by <a href="https://unsplash.com/@raygar?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Raygar He</a> on <a href="https://unsplash.com/photos/people-on-beach-during-daytime-qMn7WkYmnXE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-- <a href="/public/images/articles/australia/gbr-giorgia-doglioni-.jpg">Great Barrier Reef - Nemo</a> Photo by <a href="https://unsplash.com/@gio_aroundtheworld?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Giorgia Doglioni</a> on <a href="https://unsplash.com/photos/clown-fish-on-coral-reef-vZsg8M_lZNY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-- <a href="/public/images/articles/australia/gbr-erick-morales-oyola.jpg">Great Barrier Reef</a> Photo by <a href="https://unsplash.com/@ejmoralesoyola?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Erick Morales Oyola</a> on <a href="https://unsplash.com/photos/beautiful-colorful-coral-reef-flourishes-underwater-F8ge-nhh41A?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- <a href="/public/images/blogposts/australia/sydney-habour-dan-freeman.jpg">Sydney Habour</a> Photo by <a href="https://unsplash.com/@danfreemanphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dan Freeman</a> on <a href="https://unsplash.com/photos/sydney-opera-house-during-daytime-7Zb7kUyQg1E?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- <a href="/public/images/blogposts/australia/bondi-sunrise-stephanie-o-donnell.jpg">Bondi Beach</a> Photo by <a href="https://unsplash.com/@stephodonnell?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephanie O'Donnell</a> on <a href="https://unsplash.com/photos/a-lifeguard-stand-on-the-beach-at-sunset-fj_l7EzCZOM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- <a href="/public/images/blogposts/australia/noosa-heads-raygar-he.jpg">Noosa Heads</a> Photo by <a href="https://unsplash.com/@raygar?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Raygar He</a> on <a href="https://unsplash.com/photos/people-on-beach-during-daytime-qMn7WkYmnXE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- <a href="/public/images/blogposts/australia/gbr-giorgia-doglioni-.jpg">Great Barrier Reef - Nemo</a> Photo by <a href="https://unsplash.com/@gio_aroundtheworld?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Giorgia Doglioni</a> on <a href="https://unsplash.com/photos/clown-fish-on-coral-reef-vZsg8M_lZNY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- <a href="/public/images/blogposts/australia/gbr-erick-morales-oyola.jpg">Great Barrier Reef</a> Photo by <a href="https://unsplash.com/@ejmoralesoyola?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Erick Morales Oyola</a> on <a href="https://unsplash.com/photos/beautiful-colorful-coral-reef-flourishes-underwater-F8ge-nhh41A?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 ### Austria:
 
-- <a href="/public/images/articles/austria/innsbruck-luca.jpg">Innsbruck</a> Photo by <a href="https://unsplash.com/@luca1898_?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Luca</a> on <a href="https://unsplash.com/photos/a-river-running-through-a-city-with-mountains-in-the-background-S0ahTyEuNAU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-- <a href="/public/images/articles/austria/austria-mountains-matthew.jpg">Austria Mountains</a> Photo by <a href="https://unsplash.com/@sir_jarvis?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Matthew</a> on <a href="https://unsplash.com/photos/a-large-body-of-water-surrounded-by-mountains-bgoVxp-uI5w?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-- <a href="/public/images/articles/austria/mountain-lake-daniel-jacob.jpg">Austria Mountain Lake</a> Photo by <a href="https://unsplash.com/@dnljcb?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniel Jacob</a> on <a href="https://unsplash.com/photos/brown-wooden-terrace-1RlMtlGfVr0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-- <a href="/public/images/articles/austria/mountain-cabin-daniel-diemer.jpg">Austria Mountain Cabin</a> Photo by <a href="https://unsplash.com/@danieldiemer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniel Diemer</a> on <a href="https://unsplash.com/photos/a-house-on-a-hill-with-a-mountain-in-the-background-d_sYgHQHnEQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-- <a href="/public/images/articles/austria/mountain-top-thomas-haas.jpg">Mountain Top</a> Photo by <a href="https://unsplash.com/@thomashaas?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Thomas Haas</a> on <a href="https://unsplash.com/photos/a-snow-covered-mountain-with-a-blue-sky-in-the-background-Lqj3mjJTAmY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- <a href="/public/images/blogposts/austria/innsbruck-luca.jpg">Innsbruck</a> Photo by <a href="https://unsplash.com/@luca1898_?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Luca</a> on <a href="https://unsplash.com/photos/a-river-running-through-a-city-with-mountains-in-the-background-S0ahTyEuNAU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- <a href="/public/images/blogposts/austria/austria-mountains-matthew.jpg">Austria Mountains</a> Photo by <a href="https://unsplash.com/@sir_jarvis?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Matthew</a> on <a href="https://unsplash.com/photos/a-large-body-of-water-surrounded-by-mountains-bgoVxp-uI5w?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- <a href="/public/images/blogposts/austria/mountain-lake-daniel-jacob.jpg">Austria Mountain Lake</a> Photo by <a href="https://unsplash.com/@dnljcb?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniel Jacob</a> on <a href="https://unsplash.com/photos/brown-wooden-terrace-1RlMtlGfVr0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- <a href="/public/images/blogposts/austria/mountain-cabin-daniel-diemer.jpg">Austria Mountain Cabin</a> Photo by <a href="https://unsplash.com/@danieldiemer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniel Diemer</a> on <a href="https://unsplash.com/photos/a-house-on-a-hill-with-a-mountain-in-the-background-d_sYgHQHnEQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- <a href="/public/images/blogposts/austria/mountain-top-thomas-haas.jpg">Mountain Top</a> Photo by <a href="https://unsplash.com/@thomashaas?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Thomas Haas</a> on <a href="https://unsplash.com/photos/a-snow-covered-mountain-with-a-blue-sky-in-the-background-Lqj3mjJTAmY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
       
 
 ### Canada:
 
-- <a href=""></a>
-- <a href=""></a>
-- <a href=""></a>
-- <a href=""></a>
-- <a href=""></a>
+- <a href="/public/images/blogposts/canada/ampersand-studios-banff.jpg">River in Banff</a> Photo by <a href="https://unsplash.com/@ampersand_studios?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ampersand Studios</a> on <a href="https://unsplash.com/photos/body-of-water-and-pine-trees-pp_oXEb2H48?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- <a href="/public/images/blogposts/canada/redd-francisco-river-cabin.jpg">River Cabin, Lake Louise</a> Photo by <a href="https://unsplash.com/@reddfrancisco?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Redd Francisco</a> on <a href="https://unsplash.com/photos/brown-wooden-house-between-trees-and-body-of-water-during-winter-DeChBE0mpbk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- <a href="/public/images/blogposts/canada/conor-samuel-toronto.jpg">Toronto</a> Photo by <a href="https://unsplash.com/@csbphotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Conor Samuel</a> on <a href="https://unsplash.com/photos/toronto-building-with-lights-Onadzzr1yBU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- <a href="/public/images/blogposts/canada/alice-triquet-jacques-cartier-national-park.jpg">Jacques Cartier National Park, Quebec</a> Photo by <a href="https://unsplash.com/@alicetricky?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alice Triquet</a> on <a href="https://unsplash.com/photos/lake-and-trees-HeEJU3nrg_0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- <a href="/public/images/blogposts/canada/juan-rojas-toronto-skyline.jpg">Toronto Skyline</a> Photo by <a href="https://unsplash.com/@juanrojas?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Juan Rojas</a> on <a href="https://unsplash.com/photos/city-skyline-under-gray-cloudy-sky-during-daytime-VlWK2bguG_Q?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+      
 
 ### Nepal:
 
-- <a href=""></a>
-- <a href=""></a>
-- <a href=""></a>
-- <a href=""></a>
-- <a href=""></a>
+- <a href="/public/images/blogposts/nepal/annapurna-giuseppe-mondi.jpg">Annapurna, Narchyang</a> Photo by <a href="https://unsplash.com/@masinutoscana?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Giuseppe Mondì</a> on <a href="https://unsplash.com/photos/houses-overlooking-mountain-range-xyE1p1rG04U?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- <a href="/public/images/blogposts/nepal/khumbu-valley-cristian-grecu.jpg">Khumbu Valley, Namche</a> Photo by <a href="https://unsplash.com/@taguwan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Cristian Grecu</a> on <a href="https://unsplash.com/photos/mountain-covered-by-snow-6yBAQeeNROU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- <a href="/public/images/blogposts/nepal/himalayas-rohit-tandon.jpg">Ariel photo of himalaya mountain range</a> Photo by <a href="https://unsplash.com/@sepoys?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rohit Tandon</a> on <a href="https://unsplash.com/photos/aerial-photography-of-mountain-range-covered-with-snow-under-white-and-blue-sky-at-daytime-9wg5jCEPBsw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>  
+- <a href="/public/images/blogposts/nepal/base-camp-trek-martin-jernberg.jpg">Everest Base Camp Trekking Route</a> Photo by <a href="https://unsplash.com/@martinjernberg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Martin Jernberg</a> on <a href="https://unsplash.com/photos/mountain-cover-with-snow-oBX-b6ltYts?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- <a href="/public/images/blogposts/nepal/kathmandu-raimond-klavins.jpg">Kathmandu</a> Photo by <a href="https://unsplash.com/@raimondklavins?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Raimond Klavins</a> on <a href="https://unsplash.com/photos/aerial-view-of-city-buildings-during-daytime-59Al83Zjtf8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 ### Norway:
 
-- <a href=""></a>
-- <a href=""></a>
-- <a href=""></a>
-- <a href=""></a>
-- <a href=""></a>
+- <a href="/public/images/blogposts/norway/bryggen-bergen-michael-fousert.jpg">Bryggen, Bergen</a> Photo by <a href="https://unsplash.com/@michaelfousert?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Michael Fousert</a> on <a href="https://unsplash.com/photos/panorama-city-view-lE5-z4nTCTQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- <a href="/public/images/blogposts/norway/northern-lights-lake-johny-goerend.jpg">Northern Lights over Skagsanden beach, Flakstad</a> Photo by <a href="https://unsplash.com/@johnygoerend?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Johny Goerend</a> on <a href="https://unsplash.com/photos/landscape-photo-of-mountains-near-lake-wallpaper-U_diPCXCBxU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> 
+- <a href="/public/images/blogposts/norway/lofoten-norway-johny-goerend.jpg">Lofoten, Norway</a> Photo by <a href="https://unsplash.com/@johnygoerend?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Johny Goerend</a> on <a href="https://unsplash.com/photos/brown-wooden-house-on-body-of-water-near-mountain-during-daytime-McSOHojERSI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>  
+- <a href="">Segla, Fjordgard</a> Photo by <a href="https://unsplash.com/@lukasseitz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lukas Seitz</a> on <a href="https://unsplash.com/photos/snow-covered-mountains-dominate-a-crisp-blue-landscape-iwYm_23zLI0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- <a href="">Longyearbyen</a> Photo by <a href="https://unsplash.com/@skyhung1228?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Himmel S</a> on <a href="https://unsplash.com/photos/a-night-view-of-a-town-with-a-hill-in-the-background-Q2seKZX8j2U?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+      
 
 ### Peru:
 
-- <a href=""></a>
-- <a href=""></a>
-- <a href=""></a>
-- <a href=""></a>
-- <a href=""></a>
+- <a href="/public/images/blogposts/peru/willian-justen-de-vasconcellos-machu-picchu-peru.jpg">Machu Picchu, Peru</a> Photo by <a href="https://unsplash.com/@willianjusten?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Willian Justen de Vasconcellos</a> on <a href="https://unsplash.com/photos/mountain-with-clouds-4hMET7vYTAQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- <a href="/public/images/blogposts/peru/hans-luiggi-la-merced-peru.jpg">La Merced, Peru</a> Photo by <a href="https://unsplash.com/@hansluiggi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hans Luiggi</a> on <a href="https://unsplash.com/photos/mountain-aerial-photography-uvQmacxnfcE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- <a href="/public/images/blogposts/peru/mckayla-crump-rainbow-mountain.jpg">Rainbow Mountain, Cusco, Peru</a> Photo by <a href="https://unsplash.com/@funkmastacrump?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">McKayla Crump</a> on <a href="https://unsplash.com/photos/mountain-under-gray-clouds-hjanvZlqoB8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- <a href="/public/images/blogposts/peru/joe-green-cusco-street.jpg">Cusco Street, Peru</a> Photo by <a href="https://unsplash.com/@jg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joe Green</a> on <a href="https://unsplash.com/photos/orange-houses-near-green-mountain-nsy6zTjk5hM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- <a href="/public/images/blogposts/peru/peter-livesey-fabric-store.jpg">Fabric Store in Peru</a> Photo by <a href="https://unsplash.com/@plivesey?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Peter Livesey</a> on <a href="https://unsplash.com/photos/woman-in-store-with-display-of-assorted-shirts-and-textiles-WEME5LOrLpE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>

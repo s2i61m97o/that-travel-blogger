@@ -1,5 +1,5 @@
 body{
-    background-size: 100%;
+    /* background-size: 100%; */
     background-repeat: no-repeat;
     background-position: top;
 }
@@ -14,5 +14,6 @@ body{
 
 #blogpost-content {
     max-width: 80%;
-    height: 1000px
+    height: auto;
+    margin: auto;
 }
