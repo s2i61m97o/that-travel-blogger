@@ -1,5 +1,10 @@
 {
   "europe": {
+    "title": {
+      "continent": "Europe",
+      "intro": "Ready to dive into centuries of culture and history without missing a beat? Europe is the ultimate playground for the solo traveler. From the safe, sun-drenched hills of Lisbon to the majestic, solo-friendly hiking trails of the Italian Dolomites, this guide is your map to navigating the continent with confidence. We show you the best social hostels, the easiest ways to meet travel companions (hello, Free Walking Tours!), and the coziest spots for a solo coffee break in Vienna's grandest Kaffeehäuser. Get ready for an unforgettable journey through a network of excellent transport, stunning landscapes, and legendary social hubs.",
+      "coverImgURL": "europe-guide-cover.png"
+    },
     "cities": [
       {
         "city": "Lisbon",
@@ -114,7 +119,7 @@
         "information": "Buy a single ticket to a local football match in a passionate city like **Madrid** or catch a theatre show in **London**. Experiencing a local passion in a crowd can be an incredibly connected, yet solo, experience."
       }
     ],
-    "food-and-drink": {
+    "food_and_drink": {
       "cafes": [
         {
           "name": "Viennese *Kaffeehaus* Tradition",
@@ -148,7 +153,7 @@
           "information": "One of the top European coffee brands known for its focus on quality, direct trade, and sustainability. Visit one of their locations for excellent specialty coffee and a focused atmosphere."
         }
       ],
-      "bars-eateries": [
+      "bars_eateries": [
         {
           "name": "The Ruin Bars of Budapest",
           "information": "**Szimpla Kert** and its neighbours are a must-do. They’re vast, quirky, and you can easily wander around, grab a beer, and fall into conversation with others."
@@ -267,7 +272,12 @@
       ]
     }
   },
-  "australia-newzealand": {
+  "australia_and_new_zealand": {
+    "title": {
+      "continent": "Australia and New Zealand",
+      "intro": "Craving adrenaline, stunning coastlines, and a guaranteed good time? The lands Down Under are tailor-made for the solo adventurer. This guide unpacks the best of Australia and New Zealand, from the hidden laneways and world-class coffee of Melbourne to the pure thrill of Queenstown, the 'Adventure Capital.' Whether you're cruising the Milford Sound, snorkeling the Great Barrier Reef, or joining a classic hostel BBQ night, you'll find that meeting an instant crew is as easy as saying 'G'day.' Everything from the great treks to the city walks is set up for easy group travel, allowing you to maximize the thrill while minimizing the stress.",
+      "coverImgURL": "aus-guide-cover.png"
+    },
     "cities": [
       {
         "city": "Melbourne",
@@ -353,7 +363,7 @@
         "information": "Spend time at the **Queen Victoria Market** (Melbourne) or **Fremantle Markets** (Perth) for cheap eats and atmosphere. Melbourne's laneways are an endless solo exploration, offering unique art, coffee, and independent shops."
       }
     ],
-    "food-and-drink": {
+    "food_and_drink": {
       "cafes": [
         {
           "name": "Melbourne's Laneway Coffee",
@@ -372,7 +382,7 @@
           "information": "Australians and New Zealanders both claim to have invented the **Flat White**. Make it your mission to sample as many as possible to pick a favourite side of the ditch."
         }
       ],
-      "bars-eateries": [
+      "bars_eateries": [
         {
           "name": "The Classic Pub Counter Meal",
           "information": "The Aussie/Kiwi Pub is the ultimate solo dining destination. Order a traditional **Parma (parmigiana)** or a steak at the bar. Pubs are friendly, unpretentious, and often have great craft beer on tap."
@@ -441,7 +451,12 @@
       ]
     }
   },
-  "south-america": {
+  "south_america": {
+    "title": {
+      "continent": "South America",
+      "intro": "South America offers an unparalleled blend of epic bucket-list landscapes and vibrant, welcoming culture. For the solo traveler, navigating this vast continent is all about embracing adventure and community. This guide details exactly how to do it: from joining a spontaneous 4x4 tour across the otherworldly Bolivian Salt Flats to mastering the tango in cosmopolitan Buenos Aires, and taking essential Spanish lessons in social hubs like Medellín. We've highlighted the best cities for solo safety and the must-do group tours (Machu Picchu, Amazon) that turn massive journeys into shared, unforgettable experiences. It’s time to follow the backpacker trail to the world's most breathtaking sights.",
+      "coverImgURL": "americas-guide-cover.png"
+    },
     "cities": [
       {
         "city": "Buenos Aires",
@@ -518,7 +533,7 @@
         "information": "If visiting the Andes (Peru, Bolivia, Ecuador), plan for a full two days of rest/light activity in your first high-altitude city. Drink coca tea and water. Solo travelers are safer when they listen to their bodies and don't rush the process. Consider a day trip to the lower Sacred Valley from Cusco."
       }
     ],
-    "food-and-drink": {
+    "food_and_drink": {
       "cafes": [
         {
           "name": "Colombian Coffee Culture",
@@ -529,7 +544,7 @@
           "information": "While traditionally a communal drink, you'll see Argentinians and Uruguayans carrying their own **mate** gourd and thermos everywhere. Order some *medias lunas* (croissants) and watch the world go by from a park bench."
         }
       ],
-      "bars-eateries": [
+      "bars_eateries": [
         {
           "name": "Ceviche in Lima",
           "information": "Peruvian cuisine is world-renowned. Grab a counter seat at a popular *cebicheria* in the **Miraflores** or **Barranco** districts of Lima for the freshest, zesty raw fish dish. Order a side of **Causa** (layered potato dish) for a full meal."

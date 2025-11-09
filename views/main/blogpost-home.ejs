@@ -12,7 +12,7 @@
   </section>
   <section id="articles">
     <div class="articles-grid">
-      <% Object.entries(blogpostData).forEach(([slug, post]) => { %>
+      <% Object.entries(blogposts).forEach(([slug, post]) => { %>
       <div
         class="article-card"
         onclick="location.href='/blogpost/<%= slug %>';"

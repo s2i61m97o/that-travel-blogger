@@ -1,0 +1,23 @@
+<%- include("../partials/header") %>
+
+<main id="destination-guides">
+  <h1>Destination Guides:</h1>
+  <div id="guide-container">
+    <% Object.entries(guides).forEach(([slug, guide]) => { %>
+    <div
+      class="guide-card"
+      onclick="location.href='/destination-guide/<%= slug %>';"
+    >
+      <h3 class="guide-location"><%= guide.title.continent %></h3>
+      <img
+        src="/images/travel-guides/<%= guide.title.coverImgURL %>"
+        alt=""
+        class="guide-img"
+      />
+    </div>
+    <% }) %>
+  </div>
+</main>
+
+<%- include("../partials/plan-tips-banner") %> <%- include("../partials/footer")
+%>

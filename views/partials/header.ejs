@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>That Travel Blogger</title>
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="/css/styles.css" type="text/css"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/styles.css" type="text/css" />
     <link rel="stylesheet" href="/<%= stylesheet %>" type="text/css" />
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -22,11 +27,52 @@
   </head>
 
   <body>
-    <nav>
-      <a href="/"><button>Home</button></a>
-      <a href="/articles"><button>Articles</button></a>
-      <a href="/planning-tips"><button>Planning Tips</button></a>
-      <a href="/destination-guides"><button>Destination guides</button></a>
+    
+    <nav class="navbar navbar-expand-sm">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/blogposts">Blogposts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/planning-tips">Planning Tips</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/destination-guides">Destination Guides</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </nav>
 
     <header>
@@ -36,6 +82,6 @@
         alt=""
       />
     </header>
-    <main>
-
-      
+    <main></main>
+  </body>
+</html>

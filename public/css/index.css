@@ -1,6 +1,4 @@
-/* ============== */
 /* Header Section */
-/* ============== */
 
 #title-image {
   width: 80vw;;
@@ -12,9 +10,7 @@
   /* text-shadow: 0.5px 0.5px 0.5px black; */
 }
 
-/* ======================== */
 /* Blogpost Article Section */
-/* ======================== */
 
 #articles {
   position: static;
@@ -29,8 +25,6 @@
 }
 
 .blog-card {
-  font-family: "Chewy", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: whitesmoke;
   text-shadow: 1px 1px 1px black;
   box-shadow: 3px 4px black;
@@ -48,6 +42,7 @@
 .blog-card:hover {
   transform: translate(4px, 3px);
   box-shadow: none;
+  cursor: pointer;
 }
 
 .blog-card > img {
@@ -68,18 +63,22 @@
 }
 
 .article-title h3 {
-  margin: 0;
   font-size: clamp(1rem, 2vw, 2rem); /* responsive scaling */
 }
 
 .article-title p {
-  margin: 0;
   font-size: clamp(0.8rem, 1.5vw, 1.2rem);
 }
 
-/* ================================== */
+.article-title h3,
+.article-title p {
+  font-family: "Chewy", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+    margin: 0;
+}
+
+
 /* Blogpost Responsive Design Section */
-/* ================================== */
 
 /* Desktop / Large screens */
 @media (min-width: 1025px) {
@@ -184,68 +183,18 @@
   }
 }
 
-/* ================== */
 /* Destination Guides */
-/* ================== */
 
-#destination-guides {
-  position: relative;
-  font-family: "Edu NSW ACT Cursive", cursive;
-  width: 100%;
-  text-align: center;
+#destination-guides{
   background-image: linear-gradient(0deg, transparent 0%, whitesmoke 99%),
     url(/images/website-images/mountains-hero-banner-bottom.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-bottom: 50px;
-  margin-top: 10px;
 }
 
 #guides h2 {
   font-size: xxx-large;
 }
 
-#guide-container {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-
-.guide-card {
-  width: 100%;
-  max-width: 350px;
-  height: 350px;
-  max-height: 350px;
-  position: relative;
-  border-radius: 8px;
-  overflow: hidden;
-  border: solid black 5px;
-}
-
-.guide-card:hover {
-  border: rgba(31, 36, 39, 0.4) solid 5px;
-  box-shadow: 10px 10px rgba(31, 36, 39, 0.4), -10px -10px rgba(31, 36, 39, 0.4);
-}
-
-.guide-img {
-  width: 100%;
-  min-height: 100%;
-  object-position: center;
-  object-fit: cover;
-}
-
-.guide-card h3 {
-  position: absolute;
-  color: whitesmoke;
-  font-size: 2rem;
-  font-weight: 700;
-  text-shadow: 2px 2px 2px black;
-  width: 100%;
-}
-
+/* Further Destination guide CSS is in styles.css due to repeated styling within index.ejs and destination-guide-home.ejs */

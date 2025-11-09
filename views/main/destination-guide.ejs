@@ -1,0 +1,94 @@
+<%- include("../partials/header") %>
+
+<section class="hero">
+    <h1><%=guideTitle.continent %></h1>
+    <p><%=guideTitle.intro %></p>
+</section>
+
+<section class="cities-container">
+  <h1>Cities To Visit</h1>
+  <div class="info-card-container">
+    <% guideCities.forEach((city) => { %>
+    <div class="info-card">
+      <h2><%= city.city %></h2>
+      <h3><%= city.country %></h3>
+      <p><%= city.information %></p>
+    </div>
+    <% }) %>
+  </div>
+</section>
+
+<section class="nature-container">
+  <h1>Things to See</h1>
+  <div class="info-card-container">
+    <% guideNature.forEach((place) => { %>
+    <div class="info-card">
+      <h2><%= place.place %></h2>
+      <h3><%= place.country %></h3>
+      <p><%= place.information %></p>
+    </div>
+    <% }) %>
+  </div>
+</section>
+
+<section class="experience-container">
+  <h1>Experiences</h1>
+  <div class="info-card-container">
+    <% guideExperiences.forEach((experience) => { %>
+    <div class="info-card">
+      <h3><%= experience.experience %></h3>
+      <p><%= experience.information %></p>
+    </div>
+    <% }) %>
+  </div>
+</section>
+
+<section class="food-and-drink">
+  <h1>Food and Drink</h1>
+  <h2>Cafes</h2>
+  <div class="info-card-container">
+    <% guideFood.cafes.forEach((cafe) => { %>
+    <div class="info-card">
+      <h3><%= cafe.name %></h3>
+      <p><%= cafe.information %></p>
+    </div>
+    <% }) %>
+  </div>
+  <h2>Bars & Eateries</h2>
+  <div class="info-card-container">
+    <% guideFood.bars_eateries.forEach((place) => { %>
+    <div class="info-card">
+      <h3><%= place.name %></h3>
+      <p><%= place.information %></p>
+    </div>
+    <% }) %>
+  </div>
+</section>
+
+<section class="accomodation">
+  <h1>Accomodation</h1>
+  <h2>Hostels</h2>
+  <div class="info-card-container">
+    <% guideAccom.hostels.forEach((hostel) => { %>
+    <div class="info-card">
+      <h3><%= hostel.name %></h3>
+      <h4><%= hostel.city %></h4>
+      <h4><%= hostel.country %></h4>
+      <p><%= hostel.information %></p>
+    </div>
+    <% }) %>
+  </div>
+  <h2>Campsites</h2>
+  <div class="info-card-container">
+    <% guideAccom.campsites.forEach((campsite) => { %>
+    <div class="info-card">
+      <h3><%= campsite.name %></h3>
+      <h4><%= campsite.location %></h4>
+      <p><%= campsite.information %></p>
+    </div>
+    <% }) %>
+  </div>
+</section>
+
+<%- include("../partials/plan-tips-banner") %> <%- include("../partials/footer")
+%>

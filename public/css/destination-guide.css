@@ -1,0 +1,77 @@
+.info-card-container,
+.info-card {
+    display: flex;
+}
+
+.hero,
+.info-card-container,
+section {
+    text-align: center;
+    margin: 25px auto;
+}
+
+h2,
+h3{
+    padding-top: 4px;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.hero{
+    width: 80%;
+}
+
+.hero h1 {
+    font-size: 60px;
+}
+.info-card-container{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    width: 80%;
+}
+
+.info-card {
+    flex-direction: column;
+    width: 30%;
+    padding: 2px;
+    background-color: rgba(245, 245, 245, 0.5);
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+.info-card p {
+    font-weight: 500;
+}
+
+.nature-container {
+    background-image: repeating-linear-gradient(180deg, whitesmoke 0%, transparent 50%, whitesmoke 99%),
+    url(/images/travel-guides/guide-bkgd-city.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.food-and-drink {
+    background-image: repeating-linear-gradient(180deg, whitesmoke, transparent 50%, whitesmoke 90%, whitesmoke),
+    url(/images/travel-guides/guide-bkgd-food.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.accomodation {
+    background-image: repeating-linear-gradient(180deg, whitesmoke, whitesmoke 10% , transparent 50%, whitesmoke),
+    url(/images/travel-guides/guide-bkgd-campsite.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    
+}
+
+#trip-tips{
+    margin-bottom: 0;
+}
